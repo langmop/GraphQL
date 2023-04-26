@@ -35,7 +35,7 @@ export const Login = () => {
 
   return (
     <>
-      <div style={{ maxWidth: "400px" }} className="m-auto mt-4">
+      <div style={{ maxWidth: "400px" }} className="m-auto mt-4 mx-4">
         <h3> Login Form </h3>
 
         {error && (

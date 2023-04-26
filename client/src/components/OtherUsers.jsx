@@ -29,7 +29,7 @@ const OtherProfile = () => {
       <div style={{ maxWidth: "600px" }} className="m-auto">
         <div class="text-center">
           <img
-            src="https://robohash.org/YOUR-TEXT.png"
+            src={`https://robohash.org/${firstName}.png`}
             class="rounded-circle border border-warning"
             alt="..."
           ></img>

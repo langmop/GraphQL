@@ -27,7 +27,7 @@ export const Signup = () => {
   };
 
   return (
-    <div style={{ maxWidth: "400px" }} className="m-auto mt-4">
+    <div style={{ maxWidth: "400px" }} className="m-auto mt-4 mx-4">
       <h3> Signup Form </h3>
 
       {error && (

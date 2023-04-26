@@ -45,6 +45,11 @@ const Nav = () => {
   ) : (
     <nav class="navbar navbar-light bg-light">
       <form class="container-fluid justify-content-start">
+        <Link to="/">
+          <button class="btn btn-outline-success me-2 w-sm" type="button">
+            Home
+          </button>
+        </Link>
         <Link to="/login">
           <button class="btn btn-outline-success me-2" type="button">
             Login
